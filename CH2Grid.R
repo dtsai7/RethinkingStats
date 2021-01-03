@@ -1,4 +1,4 @@
-# Chapter II.
+### Chapter II.
 ## Grid Approximation
 # define grid
 p_grid <- seq(from=0, to=1, length.out= 20)
@@ -21,4 +21,7 @@ plot(p_grid, posterior, type="b",
 
 mtext("20 points")
 
+
+# The correct density for your grid is determined by how accurate you want your approximation to be. 
+# More points means more precision
 
